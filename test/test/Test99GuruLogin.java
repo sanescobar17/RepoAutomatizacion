@@ -63,7 +63,7 @@ public class Test99GuruLogin {
     //login to application
         objLogin.loginToGuru99("mngr175690", actualPassword);
 
-    // go the next page
+    // go the next page MODIFICACION
         objHomePage = new Guru99HomePage(driver);
 
     //Verify home page
