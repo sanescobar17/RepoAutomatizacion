@@ -59,7 +59,7 @@ public class Test99GuruFundTransfer {
         //Otra cuenta es 55545
         objFundTransfer.submitTransfer("55544", "", "50000", "pago 3");
         //Acept alert
-
+        //MODIFICACION 2
         String mensajeValidacion = "";
         if (isAlertPresent()) {
             driver.switchTo().alert().accept();
